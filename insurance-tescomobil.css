@@ -1,0 +1,125 @@
+
+nav {
+    position: absolute;
+    background-color: white;
+    z-index: 2;
+}
+
+#my-account {
+    position: absolute;
+    color: red;
+    right: 25px;
+    top: 25px;
+    z-index: 3;
+}
+
+nav img {
+    position: absolute;
+}
+
+#red-period {
+    color: crimson;
+    font-family: tesco modern;
+    font-size: 285%;
+    font-weight: bolder;
+    line-height: 120%;
+    position: absolute;
+    left: 67.6%;
+    top: 260px;
+}
+
+
+header {
+    background-color: #21539A;
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    height: 548px;
+}
+
+header h1 {
+    font-family: tesco modern;
+    font-size: 285%;
+    font-weight: bolder;
+    line-height: 120%;
+    color: white;
+    position: absolute;
+    left: 48.3%;
+    top: 150px;
+}
+
+#umbrella-logo {
+    position: absolute;
+    left: 48.3%;
+    top: 73px;
+}
+
+#cracked-phone {
+    position: absolute;
+    left: 80px;
+    top: 58px;
+    transform: rotate(-9deg);
+}
+
+p {
+    position: absolute;
+    left: 50%;
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+}
+
+h2 {
+    font-family: tesco modern;
+    font-size: 200%;
+    font-weight: bolder;
+    line-height: 120%;
+    color: black;
+    position: absolute;
+    left: 48.3%;
+    top: 670px;
+}
+
+main p {
+    font-family: tesco modern, helvetica;
+    font-size: 100%;
+    line-height: 140%;
+    color: grey;
+    position: absolute;
+    left: 48.4%;
+    top: 770px;
+}
+
+#get-started-button {
+    font-family: tesco modern, Helvetica;
+    font-size: 100%;
+    line-height: 140%;
+    color: white;
+    position: absolute;
+    left: 54.5%;
+    top: 400px;
+}
+
+#upload-button {
+    font-family: tesco modern, Helvetica;
+    font-size: 100%;
+    line-height: 140%;
+    color: grey;
+    position: absolute;
+    left: 52%;
+    top: 860px;
+}
+
+footer {
+    position: fixed;
+    margin-left: 0px;
+    bottom: 0;
+    width: 100%;
+    color: lightgray;
+    text-align: center;
+}
+
+
+
