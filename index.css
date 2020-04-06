@@ -1,0 +1,158 @@
+body {
+  font-family: tesco modern, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: white;
+  padding: 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#my-account {
+  color: blue;
+}
+
+#red-period {
+  color: crimson;
+  font-family: tesco modern, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #21539a;
+  width: 100%;
+  padding: 60px;
+  height: 450px;
+}
+
+#header-left {
+  width: 50%;
+}
+
+#header-right {
+  width: 50%;
+  align-content: center;
+  padding: 0 200px 0 0;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  padding: 60px;
+}
+
+#main-left {
+  width: 50%;
+}
+
+#main-right {
+  width: 50%;
+  align-content: center;
+  padding: 0 200px 0 0;
+}
+
+header h1 {
+  width: 75%;
+  font-family: tesco modern, Helvetica, sans-serif;
+  font-size: 285%;
+  font-weight: bolder;
+  color: white;
+}
+
+#cracked-phone {
+  transform: rotate(-9deg);
+}
+
+h2 {
+  font-family: tesco modern, Helvetica, sans-serif;
+  font-size: 200%;
+  font-weight: bolder;
+  line-height: 120%;
+  color: black;
+  left: 48.3%;
+  top: 670px;
+}
+
+main p {
+  font-family: tesco modern, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 140%;
+  color: grey;
+}
+
+#get-started-button {
+  font-family: tesco modern, Helvetica, sans-serif;
+  font-size: 50%;
+  font-weight: normal;
+  line-height: 140%;
+  background-color: #499feb;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 20px;
+  height: 50px;
+  position: relative;
+  top: 50px;
+}
+
+#upload-button {
+  font-family: tesco modern, Helvetica, sans-serif;
+  font-size: 110%;
+  font-weight: bolder;
+  background-color: #21539a;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 259.5px;
+  border-radius: 20px;
+  height: 50px;
+  position: relative;
+  top: 50px;
+}
+
+a {
+  font-family: tesco modern, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+
+footer {
+  position: relative;
+  right: 400px;
+  background-color: white;
+  margin-left: 0;
+  width: 100%;
+  height: 200px;
+  color: lightgray;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-top {
+  position: relative;
+  right: 250px;
+}
+
+#footer-bottom {
+  padding: 10px 0;
+}
+
+.footer-link-spacer {
+  margin: 0 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-link-spacer {
+    display: none;
+    color: red;
+  }
+}
